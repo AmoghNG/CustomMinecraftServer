@@ -1,6 +1,7 @@
 logs/*
 world/*
 *.jar
+*.zip
 ngrok
 usercache.json
 banned-ips.json
