@@ -5,7 +5,7 @@
 useradd -aG sudo minecraft
 ```
 
-2. Download this repo at /home/minecraft/
+2. Download this repo at `/home/minecraft/`
 ```bash
 su minecraft
 cd ~
@@ -19,10 +19,11 @@ git clone https://github.com/AmoghNG/CustomMinecraftServer .
 wget -c https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
 ```
 
-2. Download and unzip ngrok
+2. Download and unzip ngrok; add ngrok API keys found at https://dashboard.ngrok.com/get-started/setup
 ```bash
 wget -c https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
+./ngrok authtoken 'authtoken'
 ```
 
 # Steps to install 
