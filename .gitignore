@@ -1,0 +1,9 @@
+logs/*
+world/*
+*.jar
+ngrok
+usercache.json
+banned-ips.json
+banned-players.json
+whitelist.json
+ops.json

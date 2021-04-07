@@ -1,0 +1,11 @@
+[Unit]
+Description="Amoghs Minecraft Server"
+
+[Service]
+User=minecraft
+WorkingDirectory=/home/minecraft
+ExecStart=/bin/bash /home/minecraft/start_all.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
